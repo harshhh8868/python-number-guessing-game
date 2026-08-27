@@ -10,5 +10,7 @@ while True:
     print("high")
  elif d < c :
     print("low")
- else :d == c  
- print("correct",c)
+  elif d == c :
+   print("correct",c)
+   break
+   
